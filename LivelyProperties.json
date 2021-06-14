@@ -1,0 +1,49 @@
+{
+  "highlightColor": {
+    "text": "Highlight Color",
+    "type": "color",
+    "value": "#ffc300"
+  },
+  "midtoneColor": {
+    "text": "Midtone Color",
+    "type": "color",
+    "value": "#ff1f00"
+  },
+  "lowlightColor": {
+    "text": "Lowlight Color",
+    "type": "color",
+    "value": "#2d00ff"
+  },
+  "baseColor": {
+    "text": "Base Color",
+    "type": "color",
+    "value": "#ffebeb"
+  },
+  "blurFactor": {
+    "max": 0.9,
+    "min": 0.1,
+    "tick": 25,
+    "step": 0.01,
+    "text": "Blur Factor",
+    "type": "slider",
+    "value": 0.6
+  },
+  "zoom": {
+    "max": 3,
+    "min": 0.1,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Zoom",
+    "type": "slider",
+    "value": 1
+  },
+  "speed": {
+    "max": 5,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Spacing",
+    "type": "slider",
+    "value": 1
+  }
+}
