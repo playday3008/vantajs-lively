@@ -1,0 +1,34 @@
+<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.rings.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.RINGS("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "color":
+    effect.setOptions({color: val});
+    effect.restart();
+    break;
+  case "backgroundColor":
+    effect.setOptions({backgroundColor: val});
+    break;
+  case "backgroundAlpha":
+    effect.setOptions({backgroundAlpha: val});
+    break;
+  }
+}
+</script>

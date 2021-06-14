@@ -1,0 +1,21 @@
+{
+  "color": {
+    "text": "Color",
+    "type": "color",
+    "value": "#88ff00"
+  },
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#202428"
+  },
+  "backgroundAlpha": {
+    "max": 1,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Background Alpha",
+    "type": "slider",
+    "value": 1
+  }
+}
