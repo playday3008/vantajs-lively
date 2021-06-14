@@ -28,10 +28,10 @@
     "value": 3,
     "text": "Color Mode",
     "items": [
-      "lerp",
-      "variance",
-      "lerpGradient",
-      "varianceGradient"
+      "Lerp",
+      "Variance",
+      "Lerp Gradient",
+      "Variance Gradient"
     ]
   },
   "quantity": {
