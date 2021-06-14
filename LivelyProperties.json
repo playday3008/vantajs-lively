@@ -5,12 +5,12 @@
     "value": "#23153c"
   },
   "color": {
-    "text": "Color",
+    "text": "PrimaryColor",
     "type": "color",
     "value": "#ff3f81"
   },
   "color2": {
-    "text": "Second Color",
+    "text": "Secondary Color",
     "type": "color",
     "value": "#ffffff"
   },
