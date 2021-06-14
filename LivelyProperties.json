@@ -1,0 +1,48 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#131a43"
+  },
+  "baseColor": {
+    "text": "Base Color",
+    "type": "color",
+    "value": "#001a59"
+  },
+  "size": {
+    "max": 3,
+    "min": 0.1,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Size",
+    "type": "slider",
+    "value": 1
+  },
+  "amplitudeFactor": {
+    "max": 3,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Amplitude Factor",
+    "type": "slider",
+    "value": 1
+  },
+  "xOffset": {
+    "max": 0.5,
+    "min": -0.5,
+    "tick": 25,
+    "step": 0.01,
+    "text": "X Offset",
+    "type": "slider",
+    "value": 0
+  },
+  "yOffset": {
+    "max": 0.5,
+    "min": -0.5,
+    "tick": 25,
+    "step": 0.01,
+    "text": "Y Offset",
+    "type": "slider",
+    "value": 0
+  }
+}

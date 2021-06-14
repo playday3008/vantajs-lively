@@ -1,0 +1,43 @@
+<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.halo.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.HALO("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "backgroundColor":
+    effect.setOptions({backgroundColor: val});
+    break;
+  case "baseColor":
+    effect.setOptions({baseColor: val});
+    break;
+  case "size":
+    effect.setOptions({size: val});
+    break;
+  case "amplitudeFactor":
+    effect.setOptions({amplitudeFactor: val});
+    break;
+  case "xOffset":
+    effect.setOptions({xOffset: val});
+    break;
+  case "yOffset":
+    effect.setOptions({yOffset: val});
+    break;
+  }
+  effect.updateUniforms();
+}
+</script>

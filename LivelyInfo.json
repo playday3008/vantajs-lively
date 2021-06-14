@@ -1,0 +1,14 @@
+{
+  "AppVersion": "0.9.0.0",
+  "Title": "Vanta.js Halo",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Vanta.js port with Halo effect.",
+  "Author": "PlayDay",
+  "License": "MIT",
+  "Contact": "https://github.com/playday3008/vantajs-lively/tree/halo",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}
