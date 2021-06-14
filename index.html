@@ -1,0 +1,31 @@
+<script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.TOPOLOGY("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "backgroundColor":
+    effect.setOptions({backgroundColor: val});
+    break;
+  case "color":
+    effect.setOptions({color: val});
+    break;
+  }
+  effect.restart();
+}
+</script>
