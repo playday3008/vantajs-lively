@@ -1,0 +1,53 @@
+{
+  "color1": {
+    "text": "Primary Color",
+    "type": "color",
+    "value": "#060b25"
+  },
+  "color2": {
+    "text": "Secondary Color",
+    "type": "color",
+    "value": "#ffffff"
+  },
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#f6f6f6"
+  },
+  "amplitudeFactor": {
+    "max": 3,
+    "min": 0.1,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Amplitude Factor",
+    "type": "slider",
+    "value": 1
+  },
+  "ringFactor": {
+    "max": 20,
+    "min": 0.1,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Ring Factor",
+    "type": "slider",
+    "value": 4
+  },
+  "rotationFactor": {
+    "max": 2,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Rotation Factor",
+    "type": "slider",
+    "value": 0.1
+  },
+  "speed": {
+    "max": 5,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+  }
+}
