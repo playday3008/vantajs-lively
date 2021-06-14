@@ -1,0 +1,43 @@
+{
+  "color": {
+    "text": "Color",
+    "type": "color",
+    "value": "#ff3f81"
+  },
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#23153c"
+  },
+  "points": {
+    "max": 20,
+    "min": 1,
+    "tick": 25,
+    "text": "Points",
+    "type": "slider",
+    "value": 10
+  },
+  "maxDistance": {
+    "max": 40,
+    "min": 10,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Max Distance",
+    "type": "slider",
+    "value": 20
+  },
+  "spacing": {
+    "max": 20,
+    "min": 10,
+    "tick": 25,
+    "step": 0.01,
+    "text": "Spacing",
+    "type": "slider",
+    "value": 15
+  },
+  "showDots": {
+    "type": "checkbox",
+    "text": "Show Dots",
+    "value": true
+  }
+}

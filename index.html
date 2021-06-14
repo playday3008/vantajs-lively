@@ -1,0 +1,46 @@
+<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.NET("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "color":
+    effect.setOptions({color: val});
+    effect.restart();
+    break;
+  case "backgroundColor":
+    effect.setOptions({backgroundColor: val});
+    break;
+  case "points":
+    effect.setOptions({points: val});
+    effect.restart();
+    break;
+  case "maxDistance":
+    effect.setOptions({maxDistance: val});
+    break;
+  case "spacing":
+    effect.setOptions({spacing: val});
+    effect.restart();
+    break;
+  case "showDots":
+    effect.setOptions({showDots: val});
+    effect.restart();
+    break;
+  }
+}
+</script>
