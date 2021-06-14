@@ -1,0 +1,30 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#002222"
+  },
+  "color": {
+    "text": "Color",
+    "type": "color",
+    "value": "#222426"
+  },
+  "spacing": {
+    "max": 10,
+    "min": 0,
+    "tick": 25,
+    "step": 0.5,
+    "text": "Spacing",
+    "type": "slider",
+    "value": 0
+  },
+  "chaos": {
+    "max": 10,
+    "min": 0,
+    "tick": 25,
+    "step": 0.5,
+    "text": "Chaos",
+    "type": "slider",
+    "value": 1
+  }
+}
