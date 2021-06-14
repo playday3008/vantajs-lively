@@ -1,11 +1,11 @@
 {
   "color1": {
-    "text": "First Color",
+    "text": "Primary Color",
     "type": "color",
     "value": "#008c8c"
   },
   "color2": {
-    "text": "Second Color",
+    "text": "Secondary Color",
     "type": "color",
     "value": "#f2e735"
   },
