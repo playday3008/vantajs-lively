@@ -1,0 +1,14 @@
+{
+  "AppVersion": "0.9.0.0",
+  "Title": "Vanta.js Waves",
+  "Thumbnail": "thumbnail.jpg",
+  "Preview": "preview.gif",
+  "Desc": "Vanta.js port with Waves effect.",
+  "Author": "PlayDay",
+  "License": "MIT",
+  "Contact": "https://github.com/playday3008/vantajs-lively/tree/waves",
+  "Type": 1,
+  "FileName": "index.html",
+  "Arguments": null,
+  "IsAbsolutePath": false
+}

@@ -1,0 +1,41 @@
+<!--<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>-->
+<!-- Geometry is no longer a constructor in three.js r125 -->
+<script src="https://cdn.jsdelivr.net/npm/three@0.124.0/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.waves.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.WAVES("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "color":
+    effect.setOptions({color: val});
+    break;
+  case "shininess":
+    effect.setOptions({shininess: val});
+    break;
+  case "waveHeight":
+    effect.setOptions({waveHeight: val});
+    break;
+  case "waveSpeed":
+    effect.setOptions({waveSpeed: val});
+    break;
+  case "zoom":
+    effect.setOptions({zoom: val});
+    break;
+  }
+}
+</script>
