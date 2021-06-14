@@ -14,12 +14,12 @@
     "value": 1
   },
   "color1": {
-    "text": "First Color",
+    "text": "Primary Color",
     "type": "color",
     "value": "#ff0000"
   },
   "color2": {
-    "text": "Second Color",
+    "text": "Secondary Color",
     "type": "color",
     "value": "#00d1ff"
   },
