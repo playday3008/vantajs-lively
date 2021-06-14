@@ -1,0 +1,26 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#23153c"
+  },
+  "color": {
+    "text": "Color",
+    "type": "color",
+    "value": "#ff3f81"
+  },
+  "color2": {
+    "text": "Second Color",
+    "type": "color",
+    "value": "#ffffff"
+  },
+  "size": {
+    "max": 2,
+    "min": 0.5,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Size",
+    "type": "slider",
+    "value": 1
+  }
+}
