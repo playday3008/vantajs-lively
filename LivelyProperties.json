@@ -2,12 +2,12 @@
   "backgroundColor": {
     "text": "Background Color",
     "type": "color",
-    "value": "#002222"
+    "value": "#222426"
   },
   "color": {
     "text": "Color",
     "type": "color",
-    "value": "#222426"
+    "value": "#98465f"
   },
   "spacing": {
     "max": 10,
