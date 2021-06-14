@@ -1,0 +1,49 @@
+<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.clouds.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.CLOUDS("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "backgroundColor":
+    effect.setOptions({backgroundColor: val});
+    break;
+  case "skyColor":
+    effect.setOptions({skyColor: val});
+    break;
+  case "cloudColor":
+    effect.setOptions({cloudColor: val});
+    break;
+  case "cloudShadowColor":
+    effect.setOptions({cloudShadowColor: val});
+    break;
+  case "sunColor":
+    effect.setOptions({sunColor: val});
+    break;
+  case "sunGlareColor":
+    effect.setOptions({sunGlareColor: val});
+    break;
+  case "sunlightColor":
+    effect.setOptions({sunlightColor: val});
+    break;
+  case "speed":
+    effect.setOptions({speed: val});
+    break;
+  }
+  effect.updateUniforms();
+}
+</script>

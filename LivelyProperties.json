@@ -1,0 +1,46 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#ffffff"
+  },
+  "skyColor": {
+    "text": "Sky Color",
+    "type": "color",
+    "value": "#68b8d7"
+  },
+  "cloudColor": {
+    "text": "Cloud Color",
+    "type": "color",
+    "value": "#adc1de"
+  },
+  "cloudShadowColor": {
+    "text": "Cloud Shadow Color",
+    "type": "color",
+    "value": "#183550"
+  },
+  "sunColor": {
+    "text": "Sun Color",
+    "type": "color",
+    "value": "#ff9919"
+  },
+  "sunGlareColor": {
+    "text": "Sun Glare Color",
+    "type": "color",
+    "value": "#ff6633"
+  },
+  "sunlightColor": {
+    "text": "Sunlight Color",
+    "type": "color",
+    "value": "#ff9933"
+  },
+  "speed": {
+    "max": 3,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+  }
+}

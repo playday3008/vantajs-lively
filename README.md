@@ -1,34 +1,7 @@
-# Vanta.js for Lively Wallpaper
+# Vanta.js Clouds effect for Lively Wallpaper
+ Vanta.js port with Clouds effect for Lively Wallpaper
 
-## Effects list
-### [Birds](https://github.com/playday3008/vantajs-lively/tree/birds)
-![Birds Demo](https://github.com/playday3008/vantajs-lively/tree/birds/preview.gif?raw=true "video")
-### [Cells](https://github.com/playday3008/vantajs-lively/tree/cells)
-![Cells Demo](https://github.com/playday3008/vantajs-lively/tree/cells/preview.gif?raw=true "video")
-### [Clouds](https://github.com/playday3008/vantajs-lively/tree/clouds)
-![Clouds Demo](https://github.com/playday3008/vantajs-lively/tree/clouds/preview.gif?raw=true "video")
-### [Clouds2](https://github.com/playday3008/vantajs-lively/tree/clouds2)
-![Clouds2 Demo](https://github.com/playday3008/vantajs-lively/tree/clouds2/preview.gif?raw=true "video")
-### [Dots](https://github.com/playday3008/vantajs-lively/tree/dots)
-![Dots Demo](https://github.com/playday3008/vantajs-lively/tree/dots/preview.gif?raw=true "video")
-### [Fog](https://github.com/playday3008/vantajs-lively/tree/fog)
-![Fog Demo](https://github.com/playday3008/vantajs-lively/tree/fog/preview.gif?raw=true "video")
-### [Globe](https://github.com/playday3008/vantajs-lively/tree/globe)
-![Globe Demo](https://github.com/playday3008/vantajs-lively/tree/globe/preview.gif?raw=true "video")
-### [Halo](https://github.com/playday3008/vantajs-lively/tree/halo)
-![Halo Demo](https://github.com/playday3008/vantajs-lively/tree/halo/preview.gif?raw=true "video")
-### [Net](https://github.com/playday3008/vantajs-lively/tree/net)
-![Net Demo](https://github.com/playday3008/vantajs-lively/tree/net/preview.gif?raw=true "video")
-### [Rings](https://github.com/playday3008/vantajs-lively/tree/rings)
-![Rings Demo](https://github.com/playday3008/vantajs-lively/tree/rings/preview.gif?raw=true "video")
-### [Ripple](https://github.com/playday3008/vantajs-lively/tree/ripple)
-![Ripple Demo](https://github.com/playday3008/vantajs-lively/tree/ripple/preview.gif?raw=true "video")
-### [Topology](https://github.com/playday3008/vantajs-lively/tree/topology)
-![Topology Demo](https://github.com/playday3008/vantajs-lively/tree/topology/preview.gif?raw=true "video")
-### [Trunk](https://github.com/playday3008/vantajs-lively/tree/trunk)
-![Trunk Demo](https://github.com/playday3008/vantajs-lively/tree/trunk/preview.gif?raw=true "video")
-### [Waves](https://github.com/playday3008/vantajs-lively/tree/waves)
-![Waves Demo](https://github.com/playday3008/vantajs-lively/tree/waves/preview.gif?raw=true "video")
+![demo](preview.gif?raw=true "video")
 
 ## Credits
  [Vanta.js](https://github.com/tengbao/vanta)
