@@ -1,0 +1,30 @@
+{
+  "color1": {
+    "text": "First Color",
+    "type": "color",
+    "value": "#008c8c"
+  },
+  "color2": {
+    "text": "Second Color",
+    "type": "color",
+    "value": "#f2e735"
+  },
+  "size": {
+    "max": 5,
+    "min": 0.2,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Size",
+    "type": "slider",
+    "value": 1.5
+  },
+  "speed": {
+    "max": 5,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+  }
+}

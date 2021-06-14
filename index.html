@@ -1,0 +1,39 @@
+<script src="https://cdn.jsdelivr.net/npm/three@latest/build/three.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.cells.min.js"></script>
+
+<body id="body" style="margin:0;overflow:hidden"></body>
+
+<script type="text/javascript">
+var effect;
+window.onload = () => {
+  effect = VANTA.CELLS("#body");
+}
+
+window.onresize = () => {
+  effect.resize()
+}
+
+window.onunload = () => {
+  effect.destroy()
+}
+
+function livelyPropertyListener(name, val) {
+  switch (name) {
+  case "color1":
+    effect.setOptions({color1: val});
+    effect.updateUniforms();
+    break;
+  case "color2":
+    effect.setOptions({color2: val});
+    effect.updateUniforms();
+    break;
+  case "size":
+    effect.setOptions({size: val});
+    effect.updateUniforms();
+    break;
+  case "speed":
+    effect.setOptions({speed: val});
+    break;
+  }
+}
+</script>
