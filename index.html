@@ -21,20 +21,23 @@ function livelyPropertyListener(name, val) {
   switch (name) {
   case "backgroundColor":
     effect.setOptions({backgroundColor: val});
+    effect.updateUniforms();
     break;
   case "skyColor":
     effect.setOptions({skyColor: val});
+    effect.updateUniforms();
     break;
   case "cloudColor":
     effect.setOptions({cloudColor: val});
+    effect.updateUniforms();
     break;
   case "lightColor":
     effect.setOptions({lightColor: val});
+    effect.updateUniforms();
     break;
   case "speed":
     effect.setOptions({speed: val});
     break;
   }
-  effect.updateUniforms();
 }
 </script>
