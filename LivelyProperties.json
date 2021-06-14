@@ -1,0 +1,31 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#000000"
+  },
+  "skyColor": {
+    "text": "Sky Color",
+    "type": "color",
+    "value": "#5ca6ca"
+  },
+  "cloudColor": {
+    "text": "Cloud Color",
+    "type": "color",
+    "value": "#334d80"
+  },
+  "lightColor": {
+    "text": "Light Color",
+    "type": "color",
+    "value": "#ffffff"
+  },
+  "speed": {
+    "max": 5,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Speed",
+    "type": "slider",
+    "value": 1
+  }
+}
