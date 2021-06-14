@@ -1,0 +1,94 @@
+{
+  "backgroundColor": {
+    "text": "Background Color",
+    "type": "color",
+    "value": "#07192F"
+  },
+  "backgroundAlpha": {
+    "max": 1,
+    "min": 0,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Background Alpha",
+    "type": "slider",
+    "value": 1
+  },
+  "color1": {
+    "text": "First Color",
+    "type": "color",
+    "value": "#ff0000"
+  },
+  "color2": {
+    "text": "Second Color",
+    "type": "color",
+    "value": "#00d1ff"
+  },
+  "colorMode": {
+    "type": "dropdown",
+    "value": 3,
+    "text": "Color Mode",
+    "items": [
+      "lerp",
+      "variance",
+      "lerpGradient",
+      "varianceGradient"
+    ]
+  },
+  "quantity": {
+    "max": 5,
+    "min": 1,
+    "tick": 25,
+    "text": "Quantity",
+    "type": "slider",
+    "value": 5
+  },
+  "birdSize": {
+    "max": 4,
+    "min": 0.5,
+    "tick": 25,
+    "step": 0.1,
+    "text": "Bird Size",
+    "type": "slider",
+    "value": 1
+  },
+  "wingSpan": {
+    "max": 40,
+    "min": 10,
+    "tick": 25,
+    "text": "Wing span",
+    "type": "slider",
+    "value": 30
+  },
+  "speedLimit": {
+    "max": 10,
+    "min": 1,
+    "tick": 25,
+    "text": "Speed Limit",
+    "type": "slider",
+    "value": 5
+  },
+  "separation": {
+    "max": 100,
+    "min": 1,
+    "tick": 25,
+    "text": "Separation",
+    "type": "slider",
+    "value": 20
+  },
+  "alignment": {
+    "max": 100,
+    "min": 1,
+    "tick": 25,
+    "text": "Alignment",
+    "type": "slider",
+    "value": 20
+  },
+  "cohesion": {
+    "max": 100,
+    "min": 1,
+    "tick": 25,
+    "text": "Cohesion",
+    "type": "slider",
+    "value": 20
+  }
+}
